@@ -1,0 +1,6 @@
+{
+    "google_credentials_file": "credenciales.json",
+    "google_sheet_id": "TU_GOOGLE_SHEET_ID",
+    "google_scopes": ["https://www.googleapis.com/auth/spreadsheets"],
+    "sheet_name": "NOMBRE_DE_TU_HOJA_DE_CALCULO"
+}
