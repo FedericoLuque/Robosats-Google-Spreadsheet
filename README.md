@@ -1,4 +1,6 @@
-# Script para actualizar Google Sheets
+[Video explicativo](https://youtu.be/Z5xzdK_V3G4)
+
+# Script para guardar tus compras de robosats en Google Sheets
 
 Este script permite actualizar una hoja de cálculo de Google Sheets con los archivos JSON generados de una compra en RoboSats.
 
