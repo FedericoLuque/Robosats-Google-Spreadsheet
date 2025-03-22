@@ -58,4 +58,4 @@ El script preguntará si deseas eliminar los archivos JSON después de procesarl
 
 
 
-https://docs.google.com/spreadsheets/d/1PY3S_Ya5m5tfHrEuRwG-ZQBEWvYpq4til98lbXUNqFw/edit?usp=sharing
+[Plantilla en Google SpreadSheets](https://docs.google.com/spreadsheets/d/1pGe8Pw-z-nSJa9FYEgPOqKPJCPZD6ao4GPaWX1034ZQ/edit?usp=sharing)
