@@ -40,7 +40,9 @@ pip install -r requirements.txt
 
 Descarga las credenciales de la API de Google Sheets desde [Google Cloud Console](https://console.cloud.google.com/), y guarda el archivo como `credenciales.json` en el mismo directorio que el script.
 
-### 5. Ejecución del script
+### 5. Modifica config.json
+
+### 6. Ejecución del script
 
 Para ejecutar el script, usa el siguiente comando:
 
@@ -48,7 +50,7 @@ Para ejecutar el script, usa el siguiente comando:
 python btc.py
 ```
 
-### 6. Eliminación de archivos (opcional)
+### 7. Eliminación de archivos (opcional)
 
 El script preguntará si deseas eliminar los archivos JSON después de procesarlos. Puedes confirmar o cancelar esta acción.
 
