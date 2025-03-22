@@ -54,3 +54,6 @@ El script preguntará si deseas eliminar los archivos JSON después de procesarl
 
 ---
 
+
+https://docs.google.com/spreadsheets/d/1UDkbI5AmvgbOifNzKwmqP4I3Va-ft--neGunfEKAgnA/edit?usp=sharing
+
