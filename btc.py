@@ -64,9 +64,17 @@ def confirm_and_delete(file):
     else:
         print(f"Archivo {file} no eliminado.")
 
+def show_no_files_notification():
+    # Crear una ventana de notificación emergente con tkinter
+    root = tk.Tk()
+    root.withdraw()  # Ocultar la ventana principal
+    messagebox.showinfo("Sin archivos JSON", "No se han encontrado archivos .json para procesar.")
+
 # Procesar múltiples archivos trade.json en la carpeta
+json_files_found = False  # Variable para verificar si hay archivos .json
 for file in os.listdir():
     if file.startswith("trade") and file.endswith(".json"):
+        json_files_found = True
         try:
             with open(file, 'r') as f:
                 data = json.load(f)
@@ -75,3 +83,7 @@ for file in os.listdir():
                 confirm_and_delete(file)
         except Exception as e:
             print(f"Error procesando {file}: {e}")
+
+# Si no se encontraron archivos .json, mostrar notificación
+if not json_files_found:
+    show_no_files_notification()
