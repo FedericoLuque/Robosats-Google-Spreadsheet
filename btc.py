@@ -4,6 +4,7 @@ import json
 import os
 import tkinter as tk
 from tkinter import messagebox
+import webbrowser
 
 # Leer los datos sensibles desde el archivo config.json
 def load_config():
@@ -51,6 +52,15 @@ def update_google_sheet(json_data):
     # Insertar datos
     sheet.append_row(row)
     print("Datos insertados correctamente en la hoja de cálculo.")
+
+    # Abrir la hoja de cálculo en el navegador
+    open_google_sheet()
+
+def open_google_sheet():
+    # Abrir la hoja de Google Sheets en el navegador
+    sheet_url = f"https://docs.google.com/spreadsheets/d/{config['google_sheet_id']}/edit"
+    webbrowser.open(sheet_url)
+    print("Hoja de Google Sheets abierta en el navegador.")
 
 def confirm_and_delete(file):
     # Crear una ventana de confirmación con tkinter
